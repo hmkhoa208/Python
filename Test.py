@@ -1,2 +1,4 @@
-print("Hello World!")
-print("Khoa")
+hl = "Hello World!"
+print(hl)
+print(hl)
+print(hl)
