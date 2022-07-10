@@ -17,6 +17,6 @@ def getSoup(site):
 #----------------------------------------
 
 if __name__ == '__main__':
-	# Enter your login credentials here
-	print(getSoup('https://www.google.com/'))
-
+    with open("html_result.html", "w") as file:
+        file.write(str(getSoup('https://www.youtube.com/')))
+    # print(getSoup('https://www.google.com/'))
