@@ -2,9 +2,8 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import requests
 from PIL import Image
-from lxml import html 
+# from lxml import html 
 import time
-import json
 import os
 
 # Lay BeautifulSoup cua website
