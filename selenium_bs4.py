@@ -21,4 +21,4 @@ if __name__ == '__main__':
     # with open("html_result.html", "w") as file:
     #     file.write(str(getSoup('https://www.youtube.com/')))
     soup = getSoup('https://www.google.com/')
-    print(soup.find('title').text)
+    print(soup.find('title').text)gnome attach windows
